@@ -5,9 +5,9 @@ project:
 tests:
         iam-test:
                 parameters:
-                        Managed Policy: None
+                        ManagedPolicy: None
                         Path: /
-                        Policy Name: IAM Test
-                        Role Name: None
+                        PolicyName: IAMTest
+                        RoleName: None
                 template: ./test-iam-policy.yml
 

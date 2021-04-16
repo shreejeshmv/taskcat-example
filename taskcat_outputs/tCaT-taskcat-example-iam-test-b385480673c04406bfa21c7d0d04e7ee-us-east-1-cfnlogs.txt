@@ -1,0 +1,24 @@
+-----------------------------------------------------------------------------
+Region: us-east-1
+StackName: tCaT-taskcat-example-iam-test-b385480673c04406bfa21c7d0d04e7ee
+*****************************************************************************
+ResourceStatusReason:  
+Stack launch was successful
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                               ResourceStatusReason
+--------------------------------  ------------------  --------------------------  --------------------------------------------------------------  ---------------------------
+2021-04-16 07:51:08.659000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack  tCaT-taskcat-example-iam-test-b385480673c04406bfa21c7d0d04e7ee
+2021-04-16 07:51:06.350000+00:00  CREATE_COMPLETE     AWS::IAM::Policy            Policy
+2021-04-16 07:50:54.156000+00:00  CREATE_IN_PROGRESS  AWS::IAM::Policy            Policy                                                          Resource creation Initiated
+2021-04-16 07:50:53.115000+00:00  CREATE_IN_PROGRESS  AWS::IAM::Policy            Policy
+2021-04-16 07:50:50.672000+00:00  CREATE_COMPLETE     AWS::IAM::Role              Role
+2021-04-16 07:50:37.817000+00:00  CREATE_IN_PROGRESS  AWS::IAM::Role              Role                                                            Resource creation Initiated
+2021-04-16 07:50:37.493000+00:00  CREATE_IN_PROGRESS  AWS::IAM::Role              Role
+2021-04-16 07:50:32.373000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-taskcat-example-iam-test-b385480673c04406bfa21c7d0d04e7ee  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Friday, 16. April 2021 07:51AM
+-----------------------------------------------------------------------------
+
