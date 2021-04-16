@@ -1,0 +1,13 @@
+project:
+        name: taskcat-example
+        regions: 
+               - us-east-1
+tests:
+        iam-test:
+                parameters:
+                        Managed Policy: None
+                        Path: /
+                        Policy Name: IAM Test
+                        Role Name: None
+                template: ./test-iam-policy.yml
+
